@@ -19,24 +19,3 @@ Html:
 or if you want to use caption add a title attribute:
 
 <code>&lt;a href="image.jpg" class="preview" title="Great looking landscape"&gt;Roll over to preview&lt;/a&gt;</code>
-
-  <link rel="stylesheet" href="normalize.min.css"/>
-  <link rel="stylesheet" href="style.min.css"/>
-    <ul>
-      <li><a href="1.jpg" class="preview"><img src="1s.jpg" alt="gallery thumbnail" /></a></li>
-      <li><a href="2.jpg" class="preview"><img src="2s.jpg" alt="gallery thumbnail" /></a></li>
-      <li><a href="3.jpg" class="preview"><img src="3s.jpg" alt="gallery thumbnail" /></a></li>
-      <li><a href="4.jpg" class="preview"><img src="4s.jpg" alt="gallery thumbnail" /></a></li>
-    </ul>
-    <h2>Image gallery (with caption)</h2>
-    <ul>
-      <li><a href="1.jpg" class="preview" title="Lake and a mountain"><img src="1s.jpg" alt="gallery thumbnail" /></a></li>
-      <li><a href="2.jpg" class="preview" title="Fly fishing"><img src="2s.jpg" alt="gallery thumbnail" /></a></li>
-      <li><a href="3.jpg" class="preview" title="Autumn"><img src="3s.jpg" alt="gallery thumbnail" /></a></li>
-      <li><a href="4.jpg" class="preview" title="Skiing on a mountain"><img src="4s.jpg" alt="gallery thumbnail" /></a></li>
-    </ul>
-  <script src="jquery.min.js" type="text/javascript"></script>
-  <script src="imagepreview.min.js" type="text/javascript"></script>
-  <script type="text/javascript">
-    $('.preview').anarchytip();
-  </script>
