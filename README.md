@@ -23,3 +23,10 @@ or if you want to use caption add a title attribute:
 ### Usage
 
 <code>$('.preview').anarchytip();</code>
+
+### Options
+
+<code>$(selector).anarchytip({
+  xOffset:10, // default position
+  yOffset:30 // default position
+});</code>
